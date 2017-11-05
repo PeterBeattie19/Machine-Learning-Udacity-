@@ -1,6 +1,6 @@
 from sklearn.svm import SVC
 
-clf = SVC(Kernel = "linear")
+clf = SVC(kernel = "linear")
 clf.fit(features_train, labels_train)
 
 pred = clf.predict(features_test)
